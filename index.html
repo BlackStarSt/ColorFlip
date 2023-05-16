@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <title>ColorFlip</title>
 </head>
-<body class="corpo">
+<body class="corpo" id="corpo">
     <main class="principal_container">
-            <h1 class="principal_titulo">Insert your color</h1>
-            <input type="text" class="principal_input">
+        <h1 class="principal_titulo">Insert your color</h1>
+        <div class="input_container">
+            <input type="text" class="principal_input" id="input" maxlength="7" value="#">
+            <button class="principal_button" id="button">Change!</button>
+        </div>
     </main>
 </body>
 <script src="./assets/js/backgound.js"></script>
