@@ -1,0 +1,19 @@
+.corpo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.principal_titulo {
+    font-size: 75px;
+}
+
+.principal_input {
+    border: 1px #000000 solid;
+    border-radius: 15px;
+    height: 60px;
+    width: 520px;
+    padding: 0 10px;
+    font-size: 30px;
+    text-align: center;
+}
